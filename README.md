@@ -1,6 +1,6 @@
 # Surfs Up!
 
-![surfs-up.jpeg](Images/surfs-up.jpeg)
+![surfs-up.jpeg](sandbox/Images/surfs-up.jpeg)
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
@@ -8,7 +8,7 @@ Congratulations! You've decided to treat yourself to a long holiday vacation in 
 
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
-* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
+* Use the provided [starter notebook](climate_starter.ipynb) and [hawaii.sqlite](sandbox/Resources/hawaii.sqlite) files to complete your climate analysis and data exploration.
 
 * Choose a start date and end date for your trip. Make sure that your vacation range is approximately 3-15 days total.
 
@@ -28,7 +28,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
 * Plot the results using the DataFrame `plot` method.
 
-  ![precipitation](Images/precipitation.png)
+  ![precipitation](sandbox/Images/precipitation.png)
 
 * Use Pandas to print the summary statistics for the precipitation data.
 
@@ -50,7 +50,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Plot the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
+    ![station-histogram](sandbox/Images/station-histogram.png)
 
 ### Temperature Analysis (Optional)
 
@@ -64,7 +64,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
 
-    ![temperature](Images/temperature.png)
+    ![temperature](sandbox/Images/temperature.png)
 
 ### Other Recommended Analysis (Optional)
 
@@ -82,7 +82,7 @@ To begin, use Python and SQLAlchemy to do basic climate analysis and data explor
 
   * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
-    ![daily-normals](Images/daily-normals.png)
+    ![daily-normals](sandbox/Images/daily-normals.png)
 
 - - -
 
